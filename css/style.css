@@ -257,11 +257,16 @@ img {
     font-weight: 800;
     line-height: 1;
     color: var(--color-primary-lighter);
+    z-index: 1;
+    opacity: .8;
 }
 
 .benefit h3 {
+    position: relative;
+    z-index: 2;
     font-size: 20px;
     margin-bottom: 8px;
+    padding-right: 40px;
 }
 
 .benefit p {
